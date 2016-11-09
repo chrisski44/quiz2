@@ -1,41 +1,58 @@
-<doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-400000">
-	
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/quiz2.css">
 </head>
+
 <body>
 	<h1>Welcome To The Wonderful World of Debugging Code</h1>
-
 	<section id="mainSection">
-		<p>This is a paragraph, I promise.</p
-
-		<ul class="links">
-			<li>
-				<a>Link 1<a>
-			</li>
-			<li>
-				<a href="#">Link 2</a>
-			</li>
-			<li>
-				<a href="#">Link 487
-			</li>
-		</ul>
-	
-
-	<p>I am a lonely paragraph, with no immediate parent.</p>
-
+			<p>This is a paragraph, I promise.</p>
+			<ul class="links">
+				<li>
+					<a href="#">Link 1</a>
+				</li>
+				<li>
+					<a href="#">Link 2</a>
+				</li>
+				<li>
+					<a href="#">Link 487</a>
+				</li>
+			</ul>
+			<p>I am a lonely paragraph, with no immediate parent.</p>
+	</section>
 	<section id=secondarySection>
 		<p>Woop woop!!!</p>
 		<p>See how elegantly we're spaced out?</p>
-		<p>Yeah, we're spaced out alright.<//p>
-		
+		<p>Yeah, we're spaced out alright.</p>
 		<ol>
 			<li>I'm like an unordered list</li>	
-			<li>But I'm more orderly<li>
+			<li>But I'm more orderly</li>
 			<li>That was a really bad joke.</li>
-		<ol>
+		</ol>
+		<button onclick="return fadeOut();">Fade out</button>
 	</section>
-	
+	<section>
+		<div id="accordion">
+			<h2 class="toggle">Accordion</h2>
+			<div class="accordion-stuff default">
+				<p class="stuff">hello!</p>
+			</div>
+			<h2 class="toggle">More Accordioning</h2>
+			<div class="accordion-stuff">
+				<p class="stuff">hello again!</p>
+			</div>
+		</div>
+	</section>
+	<div class="myJS">
+			<p>Click to check out my cool Javascript</p>
+	</div>
+	<script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous">
+	</script>
+	<script src="js/quiz2.js"></script>
 </body>
 </hmtl>
